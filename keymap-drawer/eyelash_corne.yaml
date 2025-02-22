@@ -14,18 +14,18 @@ layers:
   - P
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
-  - '&hm_l LEFT_GUI A'
-  - '&hm_l LEFT_ALT S'
-  - '&hm_shift_l LEFT_SHIFT D'
-  - '&hm_l LCTRL F'
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
-  - '&hm_r RCTRL H'
+  - {t: H, h: '$$mdi:apple-keyboard-control$$'}
   - '&hm_shfit_r RIGHT_SHIFT J'
-  - '&hm_r RIGHT_ALT K'
-  - '&hm_r RIGHT_GUI L'
+  - {t: K, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: L, h: RIGHT GUI}
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
