@@ -36,6 +36,10 @@
     flavor = "balanced";
 };
 
+&lt {
+    quick-tap-ms = <50>;
+};
+
 / {
     behaviors {
         td0: td0 {
