@@ -43,9 +43,9 @@ layers:
   - {t: /, s: '?'}
   - FUNCTION
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:keyboard-return$$', h: LEFT WIN}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-tab$$', h: NUMBER}
-  - {t: '$$mdi:backspace$$', h: SYMBOL}
+  - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   NUMBER:
