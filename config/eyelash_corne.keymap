@@ -83,6 +83,13 @@
             key-positions = <44 45>;
             layers = <4>;
         };
+
+        ableton_shift_tab {
+            bindings = <&kp LS(TAB)>;
+            key-positions = <28 0>;
+            layers = <4>;
+            timeout-ms = <100>;
+        };
     };
 
     keymap {
