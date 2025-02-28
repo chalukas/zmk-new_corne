@@ -198,3 +198,5 @@ layers:
 combos:
 - p: [23, 24]
   k: $$mdi:keyboard-esc$$
+- p: [43, 44]
+  k: $$mdi:keyboard-space$$
