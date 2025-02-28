@@ -253,3 +253,6 @@ combos:
 - p: [44, 45]
   k: {t: QWERTY, h: toggle}
   l: [ableton]
+- p: [28, 0]
+  k: $$mdi:keyboard-tab-reverse$$
+  l: [ableton]
