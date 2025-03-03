@@ -91,8 +91,8 @@
             timeout-ms = <100>;
         };
 
-        alt_shift_2 {
-            bindings = <&kp LA(LEFT_SHIFT)>;
+        ctrl_alt_ableton {
+            bindings = <&kp LC(LEFT_ALT)>;
             key-positions = <42 28>;
             layers = <1>;
             timeout-ms = <100>;
