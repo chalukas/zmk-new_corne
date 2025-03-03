@@ -257,5 +257,5 @@ combos:
   k: $$mdi:keyboard-tab-reverse$$
   l: [ableton]
 - p: [42, 28]
-  k: Alt+$$mdi:apple-keyboard-shift$$
+  k: Ctl+$$mdi:apple-keyboard-option$$
   l: [ableton]
