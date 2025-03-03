@@ -92,8 +92,8 @@ layers:
   - {t: /, s: '?'}
   - FUNCTION
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-space$$', h: NUMBER}
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:backspace$$', h: NUMBER}
   - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-shift$$
@@ -255,4 +255,7 @@ combos:
   l: [ableton]
 - p: [28, 0]
   k: $$mdi:keyboard-tab-reverse$$
+  l: [ableton]
+- p: [42, 28]
+  k: Alt+$$mdi:apple-keyboard-shift$$
   l: [ableton]
