@@ -184,10 +184,10 @@ layers:
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - PLAY PAUSE
-  - FAST FORWARD
-  - REWIND
+  - PREVIOUS
+  - $$mdi:skip-next$$
   - $$mdi:volume-low$$
-  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-esc$$
   - {t: '$$mdi:transfer$$', type: trans}
