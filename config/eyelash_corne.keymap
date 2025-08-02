@@ -73,7 +73,7 @@
         to_ableton {
             bindings = <&to 1>;
             key-positions = <44 45>;
-            layers = <4 0 2 3>;
+            layers = <5 0 3 4>;
         };
 
         to_home {
@@ -84,7 +84,7 @@
 
         ableton_shift_tab {
             bindings = <&kp LS(TAB)>;
-            key-positions = <28 0>;
+            key-positions = <28>;
             layers = <1>;
             timeout-ms = <100>;
         };
@@ -94,6 +94,18 @@
             key-positions = <42 28>;
             layers = <1>;
             timeout-ms = <100>;
+        };
+
+        to_gaming {
+            bindings = <&to 2>;
+            key-positions = <41 28>;
+            layers = <5 0 3 4>;
+        };
+
+        to_home_from_gaming {
+            bindings = <&to 0>;
+            key-positions = <41 28>;
+            layers = <2>;
         };
     };
 
@@ -105,8 +117,8 @@
             bindings = <
 &kp TAB         &kp Q             &kp W             &kp E                     &kp R          &kp T                              &kp UP                &kp Y        &kp U          &kp I                      &kp O              &kp P                 &kp DEL
 &kp LEFT_ALT    &hm_l LEFT_GUI A  &hm_l LEFT_ALT S  &hm_shift_l LEFT_SHIFT D  &hm_l LCTRL F  &kp G                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &hm_r RCTRL J  &hm_shift_r RIGHT_SHIFT K  &hm_r RIGHT_ALT L  &hm_r RIGHT_GUI SEMI  &kp SQT
-&kp LEFT_SHIFT  &kp Z             &kp X             &kp C                     &kp V          &kp B      &kp C_MUTE              &kp DOWN              &kp N        &kp M          &kp COMMA                  &kp DOT            &kp FSLH              &mo 4
-                                                    &kp LEFT_CONTROL          &kp BACKSPACE  &lt 2 TAB                                                &lt 3 ENTER  &kp SPACE      &sk RIGHT_SHIFT
+&kp LEFT_SHIFT  &kp Z             &kp X             &kp C                     &kp V          &kp B      &kp C_MUTE              &kp DOWN              &kp N        &kp M          &kp COMMA                  &kp DOT            &kp FSLH              &mo 5
+                                                    &kp LEFT_CONTROL          &kp BACKSPACE  &lt 3 TAB                                                &lt 4 ENTER  &kp SPACE      &sk RIGHT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -117,8 +129,20 @@
             bindings = <
 &kp TAB           &kp Q             &kp W             &kp E                     &kp R          &kp T                                    &kp UP                &kp Y        &kp U          &kp I                      &kp O              &kp P                 &kp DEL
 &kp LEFT_ALT      &hm_l LEFT_GUI A  &hm_l LEFT_ALT S  &hm_shift_l LEFT_SHIFT D  &hm_l LCTRL F  &kp G                          &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &hm_r RCTRL J  &hm_shift_r RIGHT_SHIFT K  &hm_r RIGHT_ALT L  &hm_r RIGHT_GUI SEMI  &kp SQT
-&kp LEFT_CONTROL  &kp Z             &kp X             &kp C                     &kp V          &kp B            &kp C_MUTE              &kp DOWN              &kp N        &kp M          &kp COMMA                  &kp DOT            &kp FSLH              &mo 4
-                                                      &sk LEFT_CONTROL          &kp SPACE      &lt 2 BACKSPACE                                                &lt 3 ENTER  &kp SPACE      &kp RIGHT_SHIFT
+&kp LEFT_CONTROL  &kp Z             &kp X             &kp C                     &kp V          &kp B            &kp C_MUTE              &kp DOWN              &kp N        &kp M          &kp COMMA                  &kp DOT            &kp FSLH              &mo 5
+                                                      &sk LEFT_CONTROL          &kp SPACE      &lt 3 BACKSPACE                                                &lt 4 ENTER  &kp SPACE      &kp RIGHT_SHIFT
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+        };
+
+        gaming {
+            display-name = "GAMING";
+            bindings = <
+&kp TAB         &kp Q  &kp W  &kp E             &kp R      &kp T                              &kp UP                &kp Y        &kp U          &kp I            &kp O    &kp P          &kp DEL
+&kp LEFT_ALT    &kp A  &kp S  &kp D             &kp F      &kp G                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J          &kp K            &kp L    &kp SEMICOLON  &kp SQT
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C             &kp V      &kp B      &kp C_MUTE              &kp DOWN              &kp N        &kp M          &kp COMMA        &kp DOT  &kp FSLH       &mo 5
+                              &kp LEFT_CONTROL  &kp SPACE  &kp SPACE                                                &lt 4 ENTER  &kp BACKSPACE  &sk RIGHT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
