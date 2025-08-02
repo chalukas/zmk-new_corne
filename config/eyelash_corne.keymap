@@ -84,7 +84,7 @@
 
         ableton_shift_tab {
             bindings = <&kp LS(TAB)>;
-            key-positions = <28>;
+            key-positions = <28 0>;
             layers = <1>;
             timeout-ms = <100>;
         };
