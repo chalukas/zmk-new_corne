@@ -142,10 +142,10 @@ layers:
   - {t: /, s: '?'}
   - FUNCTION
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
   - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
